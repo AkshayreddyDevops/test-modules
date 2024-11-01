@@ -4,5 +4,5 @@ output "test"{
 
 module test{
   source = "./modules/test"
-  v1 = var.v
+  v1 = var.v[v1]
 }
