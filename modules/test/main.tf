@@ -1,3 +1,3 @@
 output "test_out" {
-  value = v1
+  value = var.v1
 }
