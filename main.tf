@@ -9,5 +9,5 @@ module test{
 
 
 output "test_v3" {
-  value = module.test["x"].v3
+  value = module.test.v3
 }
