@@ -1,10 +1,8 @@
 output "test_out" {
-  value = var.v1
+  value = var.v["v1"]["x"]
 }
 
-output "test_v3" {
-  value = var.v3
-}
+
 output "v3"{
   value = var.v3
 }
