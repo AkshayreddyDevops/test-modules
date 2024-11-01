@@ -6,3 +6,8 @@ module test{
   source = "./modules/test"
   v1 = var.v["v1"]
 }
+
+
+output "test_v3" {
+  value = var.v3
+}

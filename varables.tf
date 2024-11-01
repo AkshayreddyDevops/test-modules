@@ -1,3 +1,2 @@
-variable "v" {
-  
-}
+variable "v" {}
+variable "v3" {}
