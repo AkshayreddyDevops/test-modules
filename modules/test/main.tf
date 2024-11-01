@@ -1,5 +1,5 @@
 output "test_out" {
-  value = var.v["v1"]["x"]
+  value = var.v1["x"]
 }
 
 
