@@ -1,10 +1,10 @@
 output "test"{
-  value = module.test["x"].test_out
+  value = module.test.test_out
 }
 
 module test{
   source = "./modules/test"
-  v1 = var.v["x"]["v1"]
+  v1 = var.v
 }
 
 
