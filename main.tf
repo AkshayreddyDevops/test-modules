@@ -1,5 +1,5 @@
 output "test"{
-  value = module.test1.x
+  value = module.test1.x.v1
    
 }
 
