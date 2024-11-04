@@ -1,5 +1,5 @@
 output "test_out" {
-  value = "1"
+  value = var.name["V1"]
 }
 
 
