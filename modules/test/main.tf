@@ -5,7 +5,7 @@ output "c1" {
 resource "aws_lb" "alb" {
   name = "${var.v3}"
   internal = true
-  security_groups =""
-  subnets = ""
+  security_groups = [""]
+  subnets = [""]
 
 }
