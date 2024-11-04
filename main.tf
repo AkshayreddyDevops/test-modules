@@ -1,18 +1,12 @@
-output "test"{
-  value = module.test1.*.test_out
-   
-}
-
-module "test1" {
+module "t1"{
   source = "./modules/test"
   for_each = var.v
-  name1 = each.value["v1"]
+  v3 = each.value["v1"]
+  v4 = each.value["v2"]
+  v5 = each.value["l1"]
 }
 
 
-# output "test"{
-#   value = var.v.x
-   
-# }
-
-
+output "c2" {
+  value = mouules.test.c1
+}

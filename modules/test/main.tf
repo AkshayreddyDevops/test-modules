@@ -1,8 +1,4 @@
-output "test_out" {
-  value = var.name1[*]
-}
-
-
-output "v3"{
+output "c1" {
   value = var.v3
 }
+

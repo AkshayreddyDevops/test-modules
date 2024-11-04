@@ -1,5 +1,4 @@
-variable "v3"{
-  default = "bye"
-}
-variable "name1" {}
+variable "v3" {}
+variable "v4" {}
+variable "v5" {}
 
