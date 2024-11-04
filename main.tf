@@ -1,6 +1,6 @@
 output "test"{
   value = {
-    a1 = module.test1[0].test_out
+    a1 = module.test1
   }
 
 }
