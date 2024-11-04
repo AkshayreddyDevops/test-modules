@@ -1,4 +1,4 @@
 output "c1" {
-  value = var.v3
+  value = "${var.v3}"
 }
 
