@@ -1,5 +1,5 @@
 output "test"{
-  value = module.test1
+  value = module.test1.x.test_out
    
 }
 
