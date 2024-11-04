@@ -1,7 +1,7 @@
-# output "test"{
-#   value = module.test1.x.test_out
+output "test"{
+  value = module.test1.test_out
    
-# }
+}
 
 module "test1" {
   source = "./modules/test"
@@ -10,9 +10,9 @@ module "test1" {
 }
 
 
-output "test"{
-  value = var.v.x
+# output "test"{
+#   value = var.v.x
    
-}
+# }
 
 
