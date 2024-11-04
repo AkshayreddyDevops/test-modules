@@ -12,5 +12,5 @@ module test {
 
 
 output "test2" {
-  value = var.v
+  value = var.v.v1
 }
