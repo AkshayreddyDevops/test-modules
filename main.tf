@@ -1,7 +1,7 @@
-output "test"{
-  value = module.test1.x.test_out
+# output "test"{
+#   value = module.test1.x.test_out
    
-}
+# }
 
 module "test1" {
   source = "./modules/test"
