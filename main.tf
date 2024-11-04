@@ -4,8 +4,8 @@ output "test"{
 
 module test {
   source = "./modules/test"
-  for_each = var.v
-  name = each.value["x"]
+  for_each = var.v["x"]
+  name = each.value["v1"]
 }
 
 
