@@ -1,5 +1,5 @@
 output "test"{
-  value = module.test1.x.test_out[test]
+  value = module.test1.x.test_out
    
 }
 
@@ -10,5 +10,9 @@ module "test1" {
 }
 
 
+output "test"{
+  value = var.v
+   
+}
 
 
