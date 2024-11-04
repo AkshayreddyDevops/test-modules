@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "test-modules",
+			"path": "../../../../github-repo/test-modules"
+		},
+		{
+			"name": "gitHubRepo",
+			"path": "../.."
+		},
+		{
+			"name": "test-modules",
+			"path": ".."
+		}
+	],
+	"settings": {}
+}
