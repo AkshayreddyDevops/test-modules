@@ -1,7 +1,7 @@
 output "test"{
   value = {
-    a1 = modules.test1.test_out
-    a2 = modules.test1.test_out
+    a1 = module.test1.test_out
+    a2 = module.test1.test_out
   }
 
 }
