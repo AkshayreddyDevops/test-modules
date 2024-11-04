@@ -8,5 +8,5 @@ module "t1"{
 
 
 output "c2" {
-  value = mouules.test.c1
+  value = modules.test.c1
 }
