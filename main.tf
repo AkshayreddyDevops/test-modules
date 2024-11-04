@@ -4,10 +4,8 @@ output "test"{
 
 module test{
   source = "./modules/test"
-  v1 = var.v
+  for_each = var.v
+  name = each.key
 }
 
 
-output "test_v3" {
-  value = module.test.v3
-}
