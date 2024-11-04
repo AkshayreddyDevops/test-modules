@@ -5,7 +5,7 @@ output "test"{
 module test{
   source = "./modules/test"
   for_each = var.v
-  name = each.key[each.key]
+  name = each.key
 }
 
 
