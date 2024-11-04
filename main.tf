@@ -1,5 +1,5 @@
 output "test"{
-  value = type(module.test.test_out)
+  value = var.v
 }
 
 module test {
