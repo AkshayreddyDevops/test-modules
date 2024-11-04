@@ -3,4 +3,3 @@ variable "v3"{
 }
 variable "name1" {}
 variable "name2" {}
-variable "name3" {}
