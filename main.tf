@@ -1,8 +1,6 @@
 output "test"{
-  value = {
-    a1 = module.test1
-  }
-
+  value = module.test1
+   
 }
 
 module "test1" {
