@@ -5,5 +5,5 @@ module "test"{
 
 
 output "c2" {
-  value = module.test.test-out
+  value = module.test.test-out["test-11"]
 }
