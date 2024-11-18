@@ -5,5 +5,5 @@ module "t1"{
 
 
 output "c2" {
-  value = var.test
+  value = var.test["test-sub-1"]
 }
