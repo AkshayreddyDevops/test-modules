@@ -4,6 +4,6 @@ module "test"{
 }
 
 
-# output "c2" {
-#   value = var.test["test-sub-1"]["test-11"]["name"]
-# }
+output "c2" {
+  value = module.test.test-out
+}
