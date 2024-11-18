@@ -1,6 +1,6 @@
 module "test"{
   source = "./modules/test"
-  test-sub-1 = var.test["test-sub-1"]
+  env = var.test["test-sub-1"]
 }
 
 
