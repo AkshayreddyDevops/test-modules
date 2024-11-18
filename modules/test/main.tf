@@ -1,3 +1,3 @@
 output "test-out" {
-  value = var.env
+  value = var.test-sub-1
 }

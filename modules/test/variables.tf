@@ -1,2 +1,2 @@
-# variable "test-sub-1" {}
-variable "env" {}
+variable "test-sub-1" {}
+
