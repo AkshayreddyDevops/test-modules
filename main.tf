@@ -1,4 +1,4 @@
-module "t1"{
+module "test"{
   source = "./modules/test"
   test-sub-1 = var.test["test-sub-1"]
 }
