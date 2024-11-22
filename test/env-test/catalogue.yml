@@ -1,0 +1,13 @@
+name: catalogue-data
+schema:
+  enabled: "true"
+  container:
+    master-data: master-data.sql
+    app-user: app-user.sql
+    schema: schema.sql
+  env:
+    CART_ENDPOINT: localhost
+    DB_HOST: 54.205.50.60
+
+    
+
