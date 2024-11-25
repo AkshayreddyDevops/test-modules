@@ -21,6 +21,6 @@ spec:
             {{- toYaml .Values.schema.env | nindent 12 }}
              
         # {{ end }} --- removed loop
-        restartPolicy: Never
-      backoffLimit: 4
+    restartPolicy: Never
+  backoffLimit: 4
 {{- end -}}
