@@ -1,6 +1,6 @@
 name: catalogue-data
 schema:
-  enabled: "true"
+  enabled: true
   container:
     master-data: master-data.sql
     app-user: app-user.sql
