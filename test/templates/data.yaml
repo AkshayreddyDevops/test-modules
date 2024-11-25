@@ -1,4 +1,3 @@
-{{- if  .Values.schema.enabled -}}
 apiVersion: batch/v1
 kind: Job
 metadata:
@@ -19,4 +18,3 @@ spec:
             {{- toYaml .Values.schema.env | nindent 12 }}
       restartPolicy: Never
   backoffLimit: 4
-{{- end -}}
