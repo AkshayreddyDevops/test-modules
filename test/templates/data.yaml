@@ -1,0 +1,26 @@
+{{- if eq .Values.schema.enabled -}}
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: {{ .Values.name }}
+  labels:
+    appName: {{ .Values.name }}
+  annotations:
+    helm.sh/hook: pre-install
+    helm.sh/hook-delete-policy: before-hook-created,hook-failed
+spec:
+  template:
+    spec:
+      containers:
+        # {{- range $k, $v := .Values.schema.container -}}---- loop
+        #   - name: {{ $k }}
+          - name: schema-load
+            image: 054037101799.dkr.ecr.us-east-1.amazonaws.com/schema-loader:latest
+            imagePullPolicy: Always
+            env:
+             {{- toYaml .Values.schema.env | indent 10 -}}
+             
+        # {{ end }} --- removed loop
+      restartPolicy: Never
+    backoffLimit: 4
+{{- end -}}
