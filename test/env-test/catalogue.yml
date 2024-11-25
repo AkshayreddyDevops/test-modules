@@ -8,16 +8,7 @@ schema:
   env:
     - name: CART_ENDPOINT
       value: localhost
-    - name: DB_HOST
-      value: "54.205.50.60"
-    - name: DB_TYPE
-      value: mysql 
-    - name: APP_GIT_URL
-      value: "https://github.com/roboshop-devops-project-v3/shipping"
-    - name: DB_USER
-      value: root
-    - name: SCHEMA_FILES
-      value: "app-usr schema master-data"
+
 
     
 
