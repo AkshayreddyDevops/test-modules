@@ -15,6 +15,8 @@ spec:
         - name: schema-load
           image: 054037101799.dkr.ecr.us-east-1.amazonaws.com/schema-loader:latest
           imagePullPolicy: Always
+          env:
+            {{- toYaml .Values.schema.env | nindent 12 -}}
       restartPolicy: Never
   backoffLimit: 4
 {{- end -}}
