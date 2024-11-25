@@ -18,8 +18,7 @@ schema:
       value: root
     - name: DB_PASS
       value: password
-    - name: SCHEMA_FILES
-      value: "app-usr schema master-data"
+
 
     
 
