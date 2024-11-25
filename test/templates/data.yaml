@@ -14,13 +14,13 @@ spec:
       containers:
         # {{- range $k, $v := .Values.schema.container -}}---- loop
         #   - name: {{ $k }}
-          - name: schema-load
-            image: 054037101799.dkr.ecr.us-east-1.amazonaws.com/schema-loader:latest
-            imagePullPolicy: Always
-            env:
-             {{- toYaml .Values.schema.env | indent 14 }}
+        - name: schema-load
+          image: 054037101799.dkr.ecr.us-east-1.amazonaws.com/schema-loader:latest
+          imagePullPolicy: Always
+          env:
+            {{- toYaml .Values.schema.env | indent 12 }}
              
         # {{ end }} --- removed loop
-      restartPolicy: Never
-    backoffLimit: 4
+        restartPolicy: Never
+      backoffLimit: 4
 {{- end -}}
