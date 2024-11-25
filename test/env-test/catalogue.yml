@@ -16,9 +16,8 @@ schema:
       value: "https://github.com/roboshop-devops-project-v3/shipping"
     - name: DB_USER
       value: root
-    - name: DB_PASS
-      value: password
-
+    - name: SCHEMA_FILES
+      value: "app-usr schema master-data"
 
     
 
